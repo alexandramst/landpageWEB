@@ -127,7 +127,7 @@ html, body {
 .modal-content {
     background-color: white;
     border-radius: 35px;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .modal-body p {
@@ -137,24 +137,28 @@ html, body {
     margin-bottom: 20px;
 }
 
-.modal-footer {
-    display: flex;
-    justify-content: center;
-}
-
-.modal-footer .btn-ok {
+/* Botão OK dentro do Modal */
+.btn-ok {
     background-color: #61B2F5;
     color: white;
     border: none;
     border-radius: 35px;
-    padding: 10px 30px;
-    font-size: 16px;
+    padding: 14px 120px;
+    font-size: 18px;
+    font-family: 'Jura', sans-serif;
     font-weight: bold;
-    transition: background-color 0.3s;
+    display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
-.modal-footer .btn-ok:hover {
+.btn-ok:hover {
     background-color: #4a9ee0;
+}
+
+/* Modal alinhado em cima no Desktop */
+.modal-dialog {
+    max-width: 800px;
+    margin: 3rem auto 0 auto; /* topo maior */
 }
 
 /* Responsivo */
@@ -173,5 +177,11 @@ html, body {
     .frase-contactos {
         text-align: center;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: 1.75rem auto; /* Volta a centrar o modal em mobile */
     }
 }

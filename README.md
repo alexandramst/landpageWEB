@@ -28,7 +28,8 @@ Todas as imagens utilizadas foram enviadas pelo cliente.
 
 🚀 Como visualizar o projeto
 
-https://github.com/alexandramst/landpageWEB
+Site (https://alexandramst.github.io/landpageWEB/)
+Repositótio (https://github.com/alexandramst/landpageWEB)
 
 
 📬 Contacto
