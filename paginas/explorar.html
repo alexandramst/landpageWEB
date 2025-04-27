@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explorar - Living Around</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&family=Josefin+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/stylesExplorar.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../imagens/logo-grey.png" alt="Living Around" width="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="../paginas/acomodacao.html">ACOMODAÇÃO</a></li>
+        <li class="nav-item"><a class="nav-link" href="../paginas/explorar.html">LOCAIS</a></li>
+        <li class="nav-item"><a class="nav-link" href="../paginas/paginaEmConstrucao.html">BLOG</a></li>
+        <li class="nav-item"><a class="nav-link" href="../paginas/contactos.html">CONTACTOS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- SEÇÃO PRINCIPAL -->
+<section class="secao-explorar">
+  <div class="overlay"></div>
+
+  <div class="container-explorar d-flex flex-column flex-lg-row justify-content-around align-items-center">
+
+    <!-- BLOCO ESCOLHA -->
+    <div class="bloco-escolha p-4 rounded">
+      <form id="form-explorar">
+        <div class="mb-4">
+          <label for="pais" class="form-label">Escolha o país:</label>
+          <select class="form-select" id="pais" required>
+            <option value="">país</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Espanha">Espanha</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label for="cidade" class="form-label">Escolha a cidade:</label>
+          <select class="form-select" id="cidade" required>
+            <option value="">cidade</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-ver mt-3">Ver</button>
+      </form>
+    </div>
+
+    <!-- BLOCO RESULTADO -->
+    <div id="resultado" class="bloco-resultado text-start">
+      <iframe id="mapa" class="mapa d-none" src="" frameborder="0" allowfullscreen></iframe>
+      <div class="info-local mt-4 p-4 rounded d-none">
+        <h3 id="titulo-local"></h3>
+        <p id="morada"></p>
+        <p id="email"></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript personalizado -->
+<script src="../js/scriptExplorar.js"></script>
+
+</body>
+</html>
