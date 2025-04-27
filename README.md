@@ -24,28 +24,45 @@ O projeto foi construído seguindo o princípio Mobile First, garantindo:
 📄 Estrutura do Projeto
 
 /index.html                    --> Página inicial
+
 /README.md                     --> Documentação do projeto
+
 /css/
+
     styles.css                 --> Estilos gerais do site
+
     stylesAcomodacao.css       --> Estilos da página de acomodação
+
     stylesContactos.css        --> Estilos da página de contactos
+
     stylesExplorar.css         --> Estilos da página de explorar
+
 /imagens/
+
     [Todas as imagens fornecidas para o projeto]
+
 /js/
+
     scriptAcomodacao.js        --> Script dos modais da página de acomodação
+
     scriptContactos.js         --> Script do formulário de contacto
+
     scriptExplorar.js          --> Script da página de explorar
+
 /paginas/
+
     acomodacao.html            --> Página de acomodação (cards + modais)
+
     contactos.html             --> Página de contacto
+
     explorar.html              --> Página de explorar destinos
+
     paginaEmConstrucao.html    --> Página placeholder (em construção)
 
 
 📸 Imagens
 
-Todas as imagens utilizadas foram enviadas pelo cliente. 
+Todas as imagens utilizadas foram fornecidas pelo cliente. 
 
 
 🚀 Como visualizar o projeto
