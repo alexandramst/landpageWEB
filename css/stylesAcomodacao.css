@@ -154,3 +154,101 @@ html, body {
         max-width: 50%;
     }
 }
+
+
+@media (max-width: 767px) {
+
+    .banner-acomodacao {
+      background-position: left top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 450px; 
+      position: relative;
+    }
+  
+    .overlay-banner {
+        background: rgba(0, 0, 0, 0.4);
+    
+    }
+  
+    .titulo-banner {
+        font-size: 32px; 
+        line-height: 1.3;
+        margin: 0;
+        padding: 0 10px;
+        text-align: center;
+    }
+  }
+
+  /* Estilos para modais */
+  .modal-custom {
+    background: #D9D9D9;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .modal-body img {
+    max-height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
+  .modal-title {
+    font-family: 'Jura', serif;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .modal-description {
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .modal-list {
+    font-family: 'Jura', sans-serif;
+    font-size: 16px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .modal-list li {
+    margin-bottom: 8px;
+  }
+  
+  .btn-alugar {
+    background-color:#686931;
+    border: none;
+    padding: 10px 80px;
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .btn-alugar:hover {
+    background-color: #9a8527;
+  }
+  
+  /* Responsivo Modal */
+  @media (max-width: 576px) {
+    .modal-body img {
+      max-height: 150px;
+    }
+  
+    .modal-title {
+      font-size: 22px;
+    }
+  
+    .modal-description, .modal-list li {
+      font-size: 14px;
+    }
+  
+    .btn-alugar {
+      font-size: 16px;
+      padding: 8px 55px;
+    }
+  }
