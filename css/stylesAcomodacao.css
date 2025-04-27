@@ -26,7 +26,7 @@ html, body {
     margin: 0 15px;
 }
 
-/* Banner Acomodação */
+/* Banner */
 .banner-acomodacao {
     background-image: url('../imagens/combi-bicolor-praia.png');
     background-size: cover;
@@ -41,43 +41,50 @@ html, body {
 
 .overlay-banner {
     position: absolute;
-    top: 0;
+    top: 45%;
     left: 0;
-    background: rgba(0,0,0,0.5); /* sombra preta */
     width: 100%;
-    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Preto com 60% de opacidade */
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .titulo-banner {
     font-family: 'Josefin Slab', serif;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 700;
     color: white;
-    z-index: 2;
     text-align: center;
+    z-index: 2;
+    margin: 0;
 }
-
-/* Cards de Acomodação */
-.cards-acomodacao {
-    background-color: #f8f8f8;
-    padding: 60px 0;
+/* Cards */
+.fundo-cards {
+    background-color: rgba(180, 155, 44, 0.25);
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .card {
-    border-radius: 15px;
+    border: none;
+    border-radius: 20px;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: white;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .card-img-top {
-    height: 250px;
+    padding: 25px; /* espaço interno à volta da imagem */
+    border-radius: 50px; /* arredonda os cantos da imagem */
+    height: 450px;
     object-fit: cover;
 }
 
@@ -86,25 +93,26 @@ html, body {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .card-text {
     font-family: 'Jura', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
-    margin-bottom: 15px;
 }
 
 .text-muted {
-    font-family: 'Jura', sans-serif;
-    font-size: 14px;
-    cursor: pointer;
-    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Footer */
 .footer-site {
-    background-color: #000000;
+    background-color: #000;
     color: white;
     padding: 40px 20px;
 }
@@ -119,16 +127,11 @@ html, body {
 .footer-icones a {
     display: inline-block;
     margin: 0 10px;
-    transition: opacity 0.3s ease;
 }
 
 .footer-icones img {
     width: 40px;
     height: 40px;
-}
-
-.footer-icones a:hover {
-    opacity: 0.7;
 }
 
 .footer-creditos {
@@ -138,31 +141,16 @@ html, body {
 }
 
 /* Responsivo */
-@media (max-width: 992px) {
-    .titulo-banner {
-        font-size: 36px;
-    }
-
-    .card-img-top {
-        height: 200px;
+@media (max-width: 991px) {
+    .row-cards > div {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 
-@media (max-width: 768px) {
-    .titulo-banner {
-        font-size: 28px;
-    }
-
-    .card-title {
-        font-size: 26px;
-    }
-
-    .card-text {
-        font-size: 14px;
-    }
-
-    .footer-icones img {
-        width: 35px;
-        height: 35px;
+@media (min-width: 992px) {
+    .row-cards > div {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
