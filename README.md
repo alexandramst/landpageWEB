@@ -5,12 +5,16 @@ O projeto foi pensado para transmitir liberdade, leveza e a possibilidade de tra
 Com uma abordagem mobile-first e atenção especial aos detalhes visuais, o objetivo é proporcionar uma navegação fluida, envolvente e adaptada a todos os dispositivos.
 
 
+
+
 ✨ Tecnologias Utilizadas
 
 - HTML5 (estruturação semântica)
 - CSS3 (estilização moderna e responsiva)
 - Bootstrap 5 (sistema de grid flexível e componentes)
 - Google Fonts (Jura & Josefin Slab)
+
+
 
 
 📱 Responsividade
@@ -21,31 +25,54 @@ O projeto foi construído seguindo o princípio Mobile First, garantindo:
  - Layout fluido utilizando flexbox e grid do Bootstrap.
 
 
+
+
 📄 Estrutura do Projeto
 
 /index.html                    --> Página inicial
+
 /README.md                     --> Documentação do projeto
+
 /css/
+
     styles.css                 --> Estilos gerais do site
+
     stylesAcomodacao.css       --> Estilos da página de acomodação
+
     stylesContactos.css        --> Estilos da página de contactos
+
     stylesExplorar.css         --> Estilos da página de explorar
+
 /imagens/
+
     [Todas as imagens fornecidas para o projeto]
+
 /js/
+
     scriptAcomodacao.js        --> Script dos modais da página de acomodação
+
     scriptContactos.js         --> Script do formulário de contacto
+
     scriptExplorar.js          --> Script da página de explorar
+
 /paginas/
+
     acomodacao.html            --> Página de acomodação (cards + modais)
+
     contactos.html             --> Página de contacto
+
     explorar.html              --> Página de explorar destinos
+
     paginaEmConstrucao.html    --> Página placeholder (em construção)
+
+
 
 
 📸 Imagens
 
-Todas as imagens utilizadas foram enviadas pelo cliente. 
+Todas as imagens utilizadas foram fornecidas pelo cliente. 
+
+
 
 
 🚀 Como visualizar o projeto
@@ -53,6 +80,8 @@ Todas as imagens utilizadas foram enviadas pelo cliente.
 Site (https://alexandramst.github.io/landpageWEB/)
 
 Repositótio (https://github.com/alexandramst/landpageWEB)
+
+
 
 
 📬 Contacto
