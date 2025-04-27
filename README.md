@@ -5,6 +5,8 @@ O projeto foi pensado para transmitir liberdade, leveza e a possibilidade de tra
 Com uma abordagem mobile-first e atenção especial aos detalhes visuais, o objetivo é proporcionar uma navegação fluida, envolvente e adaptada a todos os dispositivos.
 
 
+
+
 ✨ Tecnologias Utilizadas
 
 - HTML5 (estruturação semântica)
@@ -13,12 +15,16 @@ Com uma abordagem mobile-first e atenção especial aos detalhes visuais, o obje
 - Google Fonts (Jura & Josefin Slab)
 
 
+
+
 📱 Responsividade
 
 O projeto foi construído seguindo o princípio Mobile First, garantindo:
  - Adaptação para telas de smartphone, tablet e desktop.
  - Ajuste automático de tamanhos de texto, imagens e botões.
  - Layout fluido utilizando flexbox e grid do Bootstrap.
+
+
 
 
 📄 Estrutura do Projeto
@@ -60,9 +66,13 @@ O projeto foi construído seguindo o princípio Mobile First, garantindo:
     paginaEmConstrucao.html    --> Página placeholder (em construção)
 
 
+
+
 📸 Imagens
 
 Todas as imagens utilizadas foram fornecidas pelo cliente. 
+
+
 
 
 🚀 Como visualizar o projeto
@@ -70,6 +80,8 @@ Todas as imagens utilizadas foram fornecidas pelo cliente.
 Site (https://alexandramst.github.io/landpageWEB/)
 
 Repositótio (https://github.com/alexandramst/landpageWEB)
+
+
 
 
 📬 Contacto
