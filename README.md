@@ -1,4 +1,5 @@
-Living Around 🌍
+🌍 LIVING AROUND
+
 Living Around é uma landing page responsiva, criada com HTML5, CSS3 e Bootstrap 5, a partir de um layout fornecido pelo cliente.
 O projeto foi pensado para transmitir liberdade, leveza e a possibilidade de trabalhar de qualquer lugar do mundo.
 Com uma abordagem mobile-first e atenção especial aos detalhes visuais, o objetivo é proporcionar uma navegação fluida, envolvente e adaptada a todos os dispositivos.
